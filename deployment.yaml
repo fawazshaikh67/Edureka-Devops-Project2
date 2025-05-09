@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myapp
+  template:
+    metadata:
+      labels:
+        app: myapp
+    spec:
+      containers:
+      - name: app-container
+        image: fawazshaikh67/myapp:latest
+        ports:
+        - containerPort: 5000  # adjust this to match the port your Flask/app.py app uses
+
