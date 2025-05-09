@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: app-container
-        image: fawazshaikh67/myapp:latest
+        image: fawazshaikh67/my-app:latest
         ports:
         - containerPort: 5000  # adjust this to match the port your Flask/app.py app uses
 

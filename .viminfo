@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1746673692,,"wq!"
+|2,0,1746804290,,"wq!"
 :q!
 |2,0,1746673644,,"q!"
 
@@ -27,26 +27,49 @@
 # Registers:
 
 # File marks:
-'0  10  3  ~/.git/rebase-merge/git-rebase-todo
-|4,48,10,3,1746673692,"~/.git/rebase-merge/git-rebase-todo"
-'1  2  0  ~/.git/rebase-merge/git-rebase-todo
-|4,49,2,0,1746673644,"~/.git/rebase-merge/git-rebase-todo"
+'0  17  31  ~/deployment.yaml
+|4,48,17,31,1746804290,"~/deployment.yaml"
+'1  10  3  ~/.git/rebase-merge/git-rebase-todo
+|4,49,10,3,1746673692,"~/.git/rebase-merge/git-rebase-todo"
 '2  2  0  ~/.git/rebase-merge/git-rebase-todo
 |4,50,2,0,1746673644,"~/.git/rebase-merge/git-rebase-todo"
+'3  2  0  ~/.git/rebase-merge/git-rebase-todo
+|4,51,2,0,1746673644,"~/.git/rebase-merge/git-rebase-todo"
 
 # Jumplist (newest first):
+-'  17  31  ~/deployment.yaml
+|4,39,17,31,1746804290,"~/deployment.yaml"
+-'  1  0  ~/deployment.yaml
+|4,39,1,0,1746804251,"~/deployment.yaml"
+-'  10  3  ~/.git/rebase-merge/git-rebase-todo
+|4,39,10,3,1746673692,"~/.git/rebase-merge/git-rebase-todo"
 -'  10  3  ~/.git/rebase-merge/git-rebase-todo
 |4,39,10,3,1746673692,"~/.git/rebase-merge/git-rebase-todo"
 -'  2  0  ~/.git/rebase-merge/git-rebase-todo
 |4,39,2,0,1746673647,"~/.git/rebase-merge/git-rebase-todo"
+-'  2  0  ~/.git/rebase-merge/git-rebase-todo
+|4,39,2,0,1746673647,"~/.git/rebase-merge/git-rebase-todo"
+-'  2  0  ~/.git/rebase-merge/git-rebase-todo
+|4,39,2,0,1746673644,"~/.git/rebase-merge/git-rebase-todo"
 -'  2  0  ~/.git/rebase-merge/git-rebase-todo
 |4,39,2,0,1746673644,"~/.git/rebase-merge/git-rebase-todo"
 -'  1  0  ~/.git/rebase-merge/git-rebase-todo
 |4,39,1,0,1746673630,"~/.git/rebase-merge/git-rebase-todo"
 -'  1  0  ~/.git/rebase-merge/git-rebase-todo
 |4,39,1,0,1746673630,"~/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1746673630,"~/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1746673630,"~/.git/rebase-merge/git-rebase-todo"
 
 # History of marks within files (newest to oldest):
+
+> ~/deployment.yaml
+	*	1746804289	0
+	"	17	31
+	^	17	32
+	.	17	31
+	+	17	31
 
 > ~/.git/rebase-merge/git-rebase-todo
 	*	1746673691	0
