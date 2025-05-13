@@ -6,7 +6,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy your application code to the container
-COPY app.py .
+COPY app1.py .
 
 # Install Flask with pip upgrade to avoid known packaging issues
 RUN pip install --upgrade pip && pip install --no-cache-dir flask
@@ -15,5 +15,5 @@ RUN pip install --upgrade pip && pip install --no-cache-dir flask
 EXPOSE 5000
 
 # Run the app
-CMD ["python", "app.py"]
+CMD ["python", "app1.py"]
 
